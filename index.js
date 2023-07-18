@@ -38,6 +38,19 @@ client.login(TOKEN);
 
 client.on(Events.InteractionCreate, async interaction => {
 
+    if (interaction.isStringSelectMenu()){
+        const selected = interaction.values[0]
+        if (selected == "jogodavelha"){
+            await interaction.reply("Projeto Jogo da Velha: https://github.com/LucasLMartins/Jogo-da-velha")
+        } else if (selected == "cinebrasil"){
+            await interaction.reply("Projeto Cinebrasil: https://github.com/LucasLMartins/Cinebrasil")
+        } else if (selected == "unipetshop"){
+            await interaction.reply("Projeto UniPetShop: https://github.com/LucasLMartins/UniPetShop")
+        } else if (selected == "ubacademy"){
+            await interaction.reply("Projeto UB Academy: https://github.com/LucasLMartins/UB-Academy")
+        }
+    }
+
     if (!interaction.isChatInputCommand()) return
     const command = interaction.client.commands.get(interaction.commandName)
     try {
