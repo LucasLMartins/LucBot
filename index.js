@@ -48,6 +48,8 @@ client.on(Events.InteractionCreate, async interaction => {
             await interaction.reply("Projeto UniPetShop: https://github.com/LucasLMartins/UniPetShop")
         } else if (selected == "ubacademy"){
             await interaction.reply("Projeto UB Academy: https://github.com/LucasLMartins/UB-Academy")
+        } else if (selected == "lucbot"){
+            await interaction.reply("Projeto LucBot: https://github.com/LucasLMartins/LucBot")
         }
     }
 

@@ -24,6 +24,11 @@ const row = new ActionRowBuilder()
                     label: "UB Academy",
                     description: "Projeto de site de cursos online",
                     value: "ubacademy"
+                },
+                {
+                    label: "LucBot",
+                    description: "Projeto de bot do discord",
+                    value: "lucbot"
                 }
             )
     )
