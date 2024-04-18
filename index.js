@@ -50,6 +50,8 @@ client.on(Events.InteractionCreate, async interaction => {
             await interaction.reply("Projeto UB Academy: https://github.com/LucasLMartins/UB-Academy")
         } else if (selected == "lucbot"){
             await interaction.reply("Projeto LucBot: https://github.com/LucasLMartins/LucBot")
+        } else if (selected == "airbnb"){
+            await interaction.reply("Projeto Airbnb machine learning: https://github.com/LucasLMartins/Airbnb-Rent-Predict")
         }
     }
 

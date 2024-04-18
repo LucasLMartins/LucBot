@@ -29,6 +29,11 @@ const row = new ActionRowBuilder()
                     label: "LucBot",
                     description: "Projeto de bot do discord",
                     value: "lucbot"
+                },
+                {
+                    label: "Airbnb rent predict",
+                    description: "Projeto de web scraping e machine learning",
+                    value: "airbnb"
                 }
             )
     )
